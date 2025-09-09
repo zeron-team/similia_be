@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"strconv"
 
 	"detector_plagio/backend/internal/api"
 	"detector_plagio/backend/internal/config"
@@ -57,7 +58,7 @@ func main() {
 	adminMux.HandleFunc("DELETE /users/{id}", handlers.DeleteUser)
 	mux.Handle("/admin/", http.StripPrefix("/admin", handlers.AuthMiddleware(adminMux)))
 
-	addr := ":8088"
+	addr := ":" + strconv.Itoa(cfg.Port)
 	fmt.Println("Server listening on", addr)
 	log.Fatal(http.ListenAndServe(addr, withCORS(mux)))
 }

@@ -3,6 +3,7 @@ package config
 import (
 	"os"
 	"path/filepath"
+	"strconv"
 )
 
 type Config struct {
@@ -10,6 +11,7 @@ type Config struct {
 	MaxUploadMB   int64
 	AllowedExtMap map[string]bool
 	JWTSecret     string
+	Port          int
 }
 
 func Load() *Config {
@@ -21,6 +23,12 @@ func Load() *Config {
 	if jwtSecret == "" {
 		jwtSecret = "a-very-secret-key" // a default for development
 	}
+	port := 8088 // Default port
+	if p := os.Getenv("PORT"); p != "" {
+		if n, err := strconv.Atoi(p); err == nil && n > 0 {
+			port = n
+		}
+	}
 
 	cfg := &Config{
 		DataRoot:    root,
@@ -31,6 +39,7 @@ func Load() *Config {
 			".txt":  true,
 		},
 		JWTSecret: jwtSecret,
+		Port:      port,
 	}
 	_ = os.MkdirAll(filepath.Join(root, "docs"), 0755)
 	_ = os.MkdirAll(filepath.Join(root, "texts"), 0755)
