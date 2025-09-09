@@ -1,4 +1,7 @@
 ## RUN
+```text
+go run ./cmd/server
+```
 
 ## GIT
 
