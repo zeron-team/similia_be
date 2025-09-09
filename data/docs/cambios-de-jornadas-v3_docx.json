@@ -1,0 +1,10 @@
+{
+  "id": "cambios-de-jornadas-v3_docx",
+  "folder": "prueba 1",
+  "filename": "cambios-de-jornadas-v3_docx.docx",
+  "originalFilename": "cambios-de-jornadas-v3.docx",
+  "size": 189394,
+  "ext": ".docx",
+  "updatedAt": "2025-09-08T21:24:33-03:00",
+  "textContent": "actualmente se ve de esta forma cambios a realizar agregar un campo en la que mencione datos de facturación con la opción de cuil o cuit y con ello un campo de agregar el numero de cuil o cuit quedando dos campos datos de facturación seleccionar cuil cuit desplegable razón social numero 2 dígitos 8 dígitos 1dígito en la base de datos los 11 numeros copncatenados y sin se reemplaza por presencial 60 000 y virtual 30 000 presencial 100 y virtual sin cupo consultas al correo electrónico agcrarg gmail com queda por validar eliminar la opcion de la imagen anterior vegetariano verificar impacto en la grilla del administrador del backend tomar como default cero 0 eliminar la opcion de la imagen anterior verificar impacto en la grilla del administrador del backend tomar como default cero 0 nota cuando dice eliminar se recomienda dejarlo oculto en el código de esta forma si es requerido a futuro se podrá utilizar nuevamente comprobante de preinscripción agregar los nuevos datos de datos de facturación razón social cuil cuit corroborar la funcionalidad de envío de mails tanto para la pre inscripción como para la inscripción"
+}

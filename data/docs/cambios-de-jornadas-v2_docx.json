@@ -1,0 +1,10 @@
+{
+  "id": "cambios-de-jornadas-v2_docx",
+  "folder": "prueba 1",
+  "filename": "cambios-de-jornadas-v2_docx.docx",
+  "originalFilename": "cambios-de-jornadas-v2.docx",
+  "size": 188336,
+  "ext": ".docx",
+  "updatedAt": "2025-09-08T21:24:32-03:00",
+  "textContent": "actualmente se ve de esta forma cambios a realizar agregar un campo en la que mencione datos de facturación con la opción de cuil o cuit y con ello un campo de agregar el numero de cuil o cuit quedando dos campos datos de facturación seleccionar cuil cuit desplegable razón social numero se reemplaza por asociación de contadores generales de la república argentina cuit 30 69805956 3 banco patagonia sa cuenta corriente 010 710415271 cbu 0340010400710415271006 consultas al correo electrónico agcrarg gmail com queda por validar eliminar la opcion de la imagen anterior verificar impacto en la grilla del administrador del backend eliminar la opcion de la imagen anterior verificar impacto en la grilla del administrador del backend nota cuando dice eliminar se recomienda dejarlo oculto en el código de esta forma si es requerido a futuro se podrá utilizar nuevamente comprobante de preinscripción agregar los nuevos datos de datos de facturación razón social numero corroborar la funcionalidad de envío de mails tanto para la pre inscripción como para la inscripción"
+}

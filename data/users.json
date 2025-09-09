@@ -1,0 +1,10 @@
+[
+  {
+    "id": "c69f18f0-878b-4ba0-add6-07692655228b",
+    "name": "Admin",
+    "lastName": "User",
+    "username": "admin",
+    "password": "$2a$10$vSaJzNw9lrGRNjyH/EkHzuKCnpqM0kGx82WCeZgzAeFnL2HOgkc0m",
+    "email": "admin@example.com"
+  }
+]
